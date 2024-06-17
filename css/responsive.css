@@ -1,0 +1,157 @@
+/***** medium Layout *****/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .service-right {
+        font-size: 14px;
+    }
+
+    .support-box ul.service-box-list li {
+        padding: 5px 0;
+    }
+
+    #navbar ul li a {
+        font-size: 16px;
+        padding: 20px 42px;
+    }
+
+    .pro-content h4 {
+        font-size: 16px;
+    }
+}
+
+/***** Tablet Layout *****/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 250px;
+    }
+
+    .service-right {
+        padding: 10px 0;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #navbar ul li a {
+        font-size: 16px;
+        padding: 20px 45px;
+    }
+
+    .pro-content h4 img {
+        width: 50px;
+    }
+
+    .pro-content h4 {
+        font-size: 14px;
+    }
+
+}
+
+/***** Mobile Layout *****/
+
+@media only screen and (max-width: 767px) {
+
+    .logo img {
+        width: 200px;
+    }
+
+    .support-box ul.service-box-list li {
+        width: 100%;
+        margin-bottom: 0;
+        font-size: 14px;
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    /* menu start */
+    .navbar-header > label,
+    .switch,
+    .menu-container label {
+        display: block;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #menu-switcher:checked + #navbar {
+        display: block;
+    }
+
+    .menu-container {
+        padding: 5px 0;
+        float: left;
+        width: 100%;
+        background-color: #013121;
+        margin-top: 20px;   
+        position: relative;
+    }
+
+    #navbar ul {
+        width: 100% !important;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    #navbar ul li {
+        width: 100%;
+        float: left;
+        margin: 0 !important;
+        text-align: left;
+        border: 0;
+    }
+
+    #navbar ul li a {
+        color: #fff;
+        padding: 10px 20px;
+        display: block;
+        font-size: 14px;
+    }
+
+    #navbar {
+        width: 100%;
+        float: left;
+        height: auto;
+        position: absolute;
+        top: 70px;
+        z-index: 999;
+        left: 0;
+        background-color: rgba(0, 0, 0, .8);
+    }
+
+    /* menu end */
+
+    .pro-title {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    .pro-title h5 {
+        font-size: 18px;
+    }
+
+
+    .product-dec h3,
+    .product-dec h4 {
+        font-size: 16px;
+    }
+
+    .product-dec p,
+    .product-dec ul li {
+        font-size: 14px
+    }
+    
+    .pro-content h4 img{
+        width: 50px;
+        display: block;
+    }
+    
+    .pro-content h4{
+        font-size: 14px;
+    }
+
+}
+
+/***** Wide Mobile Layout *****/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
